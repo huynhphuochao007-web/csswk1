@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2b4c7e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Chỉ căn giữa duy nhất tấm ảnh nằm trong header */
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #1a365d;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li {
+    display: inline-block;
+    width: 180px;
+}
+
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Căn giữa tất cả các tiêu đề/đề mục */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+header h1 {
+    color: #ffffff;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #e2e8f0;
+    padding: 10px;
+    text-align: center;
+}
